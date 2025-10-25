@@ -1,0 +1,42 @@
+.service-container {
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.service-container:hover {
+  transform: scale(1.05);
+  transition: 0.5s ease;
+  border-color: #b415ff;
+  background: linear-gradient(
+    270deg,
+    rgba(223, 137, 8, 0.5) 50%,
+    rgba(180, 21, 255, 0.5) 100%
+  );
+}
+
+.service-top{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 15px;
+}
+
+.service-icon {
+  color: #7e7c7f;
+}
+
+.service-no {
+  font-weight: 600;
+}
+
+.service-title {
+  font-size: 28px;
+  background: linear-gradient(270deg, #df8908 50%, #b415ff 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
